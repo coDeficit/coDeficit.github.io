@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.para-content {
+    position: absolute;
+    z-index: 2000;
+    min-height: 7rem;
+    background-color: rgb(105, 108, 122);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.452);
+}
+
+.row {
+    padding: 0 10%;
+}
+
+.para-content:nth-child(2) {
+    top: 30%;
+    min-height: 25rem;
+}
+
+section {
+    position: relative;
+    height: 100rem;
+    width: 100%;
+    background-color: rgb(141, 71, 46);
+}
+
+div[class*="parallax"] {
+    height: 45rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.parallax-1 {
+    background-image: url('../fade-dark-2.png');
+}
+
+.parallax-2 {
+    background-image: url('../front-loc-1.png');
+}
